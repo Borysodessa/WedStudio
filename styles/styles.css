@@ -1,0 +1,304 @@
+:root{
+    --link-color: #000000;
+    --hover-color: #2196F3;
+    
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,p{
+    margin:0;
+    padding: 0;
+}
+
+.visually-hidden{
+    position:absolute;
+    white-space: nowrap;
+    width: 1px;
+    height:1px;
+    overflow: hidden;
+    border:0;
+    padding: 0;
+    clip:rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+img{
+    display: block;
+}
+
+.body{
+    font-family: Roboto, Tahomma, sans-serif;
+}
+
+.container{
+    margin:0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.footer-link{
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.link-comp{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;  
+    letter-spacing: 0.02em;
+}
+
+.section-title{
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+    letter-spacing: 0.03em;
+}
+
+/* ----------------------------header------------------- */
+
+.logo-link{
+    font-family: Raleway,Tahoma,sans-serif;
+    font-weight: 700;
+    font-size: 26;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color:#000000
+}
+
+.header-nav-link{
+    color: var(--link-color);
+}  
+
+.header-mail,.header-phone{
+    color: #757575;
+ }
+ 
+.header-nav-link:hover,
+.header-nav-link:focus{
+  color: var(--hover-color);
+ }  
+
+.header-mail:hover,
+.header-mail:focus{ 
+    color:var(--hover-color);
+}   
+
+.header-phone:hover,
+.header-phone:focus{
+    color:var(--hover-color);
+}   
+  
+/* ----------------------------hero------------------- */
+
+.hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  background: #2F303A;
+}
+
+.hero-wrap{
+    max-width: 670px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.hero-title{
+    margin-bottom: 30px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 6%;
+    color:#FFFFFF;
+}
+
+.hero-button{
+    font-family: inherit;
+    text-align: center;
+    font-size: 16px;
+     line-height: 1.88;
+    letter-spacing: 0.06em;
+    color:#ffffff;
+    background: #2196F3;
+}
+
+/* ----------------------------ourAdvantages------------------- */
+.ourAdvantages{
+padding-top: 95px;
+padding-bottom: 45px;
+}
+
+.ourAdvantages-item{
+  max-width: 270px;
+}
+
+.advantag-title{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
+}
+
+.advantag-text{
+
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: #757575;
+    letter-spacing: 0.03em;
+} 
+
+/* ----------------------------our product ------------------- */
+.our-product-section{
+    padding-top: 45px;
+    padding-bottom: 95px;
+}
+
+.our-product-title{
+  margin-bottom: 50px;
+}
+
+
+     
+/* ----------------------------our team ------------------- */
+.our-team-section{
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.our-team-title{
+    margin-bottom: 55px;
+}
+
+.our-team-image{
+    margin-bottom: 30px;
+}
+
+.our-team-specialist{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,17;
+    letter-spacing: 0.03em;
+    color:#212121
+}
+
+.our-team-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+   color: #757575;
+}
+
+/* ----------------------------footer------------------- */
+
+.footer{
+    padding-top:60px;
+    padding-bottom:60px;
+    background: #2F303A;
+}
+
+.logo-link{ 
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.footer-link{
+   
+     color: rgb(255 255 255 / 60%);
+}
+ 
+.address-link{
+    color:#ffffff; 
+}
+
+/* портфолио */
+
+.filter-section{
+      padding-top: 95px;
+    padding-bottom: 25px; 
+}
+
+.filter-button{
+ 
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.filter-button:hover{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+
+/* ----------------------------our-projects------------------- */
+
+
+.our-projects-section{
+padding-top: 25px   ;
+padding-bottom: 95px; 
+}
+
+.projects-title{
+    margin-bottom: 25px;
+    font-size: 18px;
+  
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.our-projects-image{
+    margin-bottom: 30px;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+      
