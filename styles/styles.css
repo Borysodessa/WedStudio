@@ -31,6 +31,7 @@
     --modal-background-col:#ffffff;
     --modal-input-span:#757575;
     --modal-caret-col: #2196F3;
+    --button-color: #f5f4fa;
 }
 
 h1,h2,h3,h4,h5,h6,ul,li,p{
@@ -263,6 +264,7 @@ img{
 }   
 
 /* ----------------------------feature------------------- */
+
 .our-feature{
     display: flex;
     padding-top: 95px;
@@ -291,7 +293,7 @@ img{
     height: 70px;
 }
 
-.our_feature__title{
+.our-feature__title{
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 1.14;
@@ -737,8 +739,8 @@ background-color: var(--our-team-bc);
   
 .modal{
     position: fixed;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     padding-top: 40px;
     padding-left: 40px;
     padding-right:40px;
@@ -754,9 +756,9 @@ background-color: var(--our-team-bc);
 
 .modal-close{
     position: absolute;
-    width:30px;
+    width: 30px;
     height: 30px;
-    top:10px;
+    top: 10px;
     right: 10px;
     border: solid 1px rgba(33, 33, 33, 0.2);
     border-radius: 50%;
@@ -765,7 +767,7 @@ background-color: var(--our-team-bc);
 .modal-close__icon{
     position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -900,7 +902,7 @@ fill: var(--hover-col);
 .popup-checkbox:checked + .label-checkbox::before{
     border: none;
     background-color: #2196F3;
-    background-image: url(../images/icon/check.svg);
+    background-image: url("../images/vector11");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -917,7 +919,9 @@ fill: var(--hover-col);
     background-color: var(--hover-col);
 }  
 
-    
+    .no-scroll{
+        overflow: hidden;
+    }
  
   
     
